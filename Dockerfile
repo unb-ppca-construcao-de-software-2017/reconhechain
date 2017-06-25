@@ -7,5 +7,7 @@ RUN apt-get update \
     && cd multichain-1.0-beta-2 \
     && mv multichaind multichain-cli multichain-util /usr/local/bin \
     && multichain-util create reconhecer -'anyone-can-connect'=true -'anyone-can-send'=true -'anyone-can-receive'=true -'anyone-can-issue'=true -'default-rpc-port'=5555 \
-    && cat ~/.multichain/reconhecer/params.dat
+    && multichaind reconhecer -daemon -rpcuser='usuario' -rpcpassword='senha' \
+    && multichain-cli reconhecer -rpcuser='usuario' -rpcpassword='senha' getnewaddress \
+    && multichain-cli reconhecer -rpcuser='usuario' -rpcpassword='senha' listaddresses
 
