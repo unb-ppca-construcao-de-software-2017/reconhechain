@@ -13,7 +13,7 @@ Implementação utilizando blockchain do sistema "Reconhecer" do TCU
 - `docker build -t reconhechain .`
 
 ### Passo 4: Executar o container a partir da imagem recém construída:
-- `docker run -it reconhechain`
+- `docker run --network=blockchain --ip=172.20.0.5 -it reconhechain`
 
 ### Passo 5: Criar o blockchain de nome 'reconhecer' dentro do container:
 - `reconhechain`
