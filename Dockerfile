@@ -6,4 +6,4 @@ RUN apt-get update \
     && tar -xvzf multichain-1.0-beta-2.tar.gz \
     && cd multichain-1.0-beta-2 \
     && mv multichaind multichain-cli multichain-util /usr/local/bin
-ADD criar_blockchain.sh /
+ADD reconhechain /usr/local/bin
