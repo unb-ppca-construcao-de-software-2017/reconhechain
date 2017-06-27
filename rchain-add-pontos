@@ -1,0 +1,9 @@
+endereco=$(multichain-cli -rpcuser='usuario' -rpcpassword='senha' reconhecer listpermissions issue | jq -r '.[0].address')
+
+total_ativos=$(multichain-cli -rpcuser='usuario' -rpcpassword='senha' reconhecer listassets | jq '. | length')
+
+id_ativo=$((total_ativos+1))
+
+nome_ativo="ativo_${id_ativo}"
+
+multichain-cli -rpcuser='usuario' -rpcpassword='senha' reconhecer issue $endereco $nome_ativo $1 0.01
