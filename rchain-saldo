@@ -1,0 +1,9 @@
+balances=$(multichain-cli reconhecer -rpcuser='usuario' -rpcpassword='senha' gettotalbalances | jq '.[].qty')
+
+saldo=0
+
+for balance in $balances; do
+  saldo=$(($saldo+$balance))
+done
+
+echo "saldo: $saldo pontos reconhecer"
