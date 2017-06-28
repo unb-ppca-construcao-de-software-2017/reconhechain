@@ -2,7 +2,8 @@ saldo=$(rchain-saldo-valor)
 
 if (($saldo >= $1));
   then
-    echo 'saldo suficiente'
+    multichain-cli reconhecer -rpcuser='usuario' -rpcpassword='senha' sendasset $2 ativo_1 $1
+    echo 'Transferência realizada com sucesso'
 else
   echo 'saldo insuficiente'
 fi
