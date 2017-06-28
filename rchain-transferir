@@ -1,0 +1,9 @@
+saldo=$(rchain-saldo-valor)
+
+if (($saldo >= $1));
+  then
+    echo 'saldo suficiente'
+else
+  echo 'saldo insuficiente'
+fi
+
