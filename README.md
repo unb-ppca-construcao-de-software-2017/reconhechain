@@ -8,7 +8,7 @@ Por exemplo, a participação em um projeto inovador rende uma quantidade x de p
 
 Os servidores possuidores dos pontos podem ofertá-los em troca de benefícios como possibilidade de falta ao trabalho, reembolso para curso de idiomas, etc.
 
-O objetivo deste trabalho é ser um primeiro esboço da utilização do multichain, uma implementação de blockchain na gestão dos pontos do programa reconhecer do TCU.
+O objetivo deste trabalho é ser um primeiro esboço da utilização do [multichain](http://www.multichain.com/), uma implementação de blockchain na gestão dos pontos do programa reconhecer do TCU.
 
 
 ## Instalação
