@@ -1,7 +1,7 @@
 # reconhechain
 Implementação utilizando blockchain do sistema "Reconhecer" do TCU.
 
-##Introdução
+## Introdução
 O TCU possui o programa "reconhecer" que funciona como um programa de pontos no qual servidores são recompensados pelo desenvolvimento de atividades que gerem valor para o Órgão.
 
 Por exemplo, a participação em um projeto inovador rende uma quantidade x de pontos, uma avaliação de desempenho positiva gera uma quantidade y de pontos, e assim por diante.
