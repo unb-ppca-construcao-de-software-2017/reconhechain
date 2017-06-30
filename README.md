@@ -26,7 +26,7 @@ O objetivo deste trabalho é ser um primeiro esboço da utilização do [multich
 #### Passo 2: Criar uma rede interna docker chamada 'blockchain' para simular os múltiplos nós da rede
 - `docker network create --subnet=172.20.0.0/16 blockchain`
 
-#### Passo 3: Construir a imagem docker do nó que será proprietário do blockchain
+#### Passo 3: Construir a imagem docker do nó que será [proprietário dos tokens](http://www.multichain.com/download/MultiChain-White-Paper.pdf) (pontos) do blockchain
 - `docker build -t reconhechain .`
 
 #### Passo 4: Executar o container a partir da imagem recém construída:
