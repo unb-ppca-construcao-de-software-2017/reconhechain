@@ -10,6 +10,13 @@ Os servidores possuidores dos pontos podem ofertá-los em troca de benefícios c
 
 O objetivo deste trabalho é ser um primeiro esboço da utilização do [multichain](http://www.multichain.com/), uma implementação de blockchain na gestão dos pontos do programa reconhecer do TCU.
 
+## Requisitos
+- [Git](https://git-scm.com/)
+
+- [Docker](https://www.docker.com/)
+
+- Conexão com a Internet
+
 
 ## Instalação
 
